@@ -39,3 +39,33 @@ class Student {
 
     }
 }
+
+const instructorOne = new Instructor({
+    name: 'the teach',
+    location: 'first room',
+    age: 38,
+    favLanguage: 'JavaScript',
+    specialty: 'Front-end',
+    catchPhrase: 'to code or not to code, not really a question; is it?'
+});
+
+const instructorTwo = new Instructor({
+    name: 'the taughter',
+    location: 'next room',
+    age: 55,
+    favLanguage: 'C++',
+    specialty: 'All of it',
+    catchPhrase: 'Do or do not, there is not try'
+});
+
+const studentOne = new Student({
+    previousBackground: 'server',
+    className: 'web dev',
+    favSubjects: ['HTML', 'CSS', 'JavaScript']
+})
+
+const studentTwo = new Student({
+    previousBackground: 'retail',
+    className: 'web dev',
+    favSubjects: ['HTML', 'CSS', 'JavaScript']
+})
